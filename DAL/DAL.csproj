@@ -55,12 +55,17 @@
     <Compile Include="DAL_Permisos.cs" />
     <Compile Include="Conexion.cs" />
     <Compile Include="DAL_Roles.cs" />
+    <Compile Include="DAL_Usuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EL\EL.csproj">
       <Project>{7a4914db-c4e8-4d76-814b-81b31b825c0f}</Project>
       <Name>EL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilidades\Utilidades.csproj">
+      <Project>{8b44d035-5da6-4d88-95fd-f0a802b7775c}</Project>
+      <Name>Utilidades</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
